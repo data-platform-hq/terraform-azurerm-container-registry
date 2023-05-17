@@ -25,7 +25,7 @@ variable "suffix" {
   default     = ""
 }
 
-variable "sku" {
+variable "sku_tier" {
   type        = string
   description = "Azure sku"
   default = "Premium"
