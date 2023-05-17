@@ -7,5 +7,5 @@ resource "azurerm_container_registry" "this" {
   name                = local.name
   resource_group_name = var.custom_resource_group_name
   location            = var.location
-  sku                 = var.sku
+  sku                 = var.sku_tier
 }

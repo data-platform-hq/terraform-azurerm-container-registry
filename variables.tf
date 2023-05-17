@@ -25,8 +25,8 @@ variable "suffix" {
   default     = ""
 }
 
-variable "tags" {
-  type        = map(any)
-  description = "A mapping of tags to assign to the resource"
-  default     = {}
+variable "sku" {
+  type        = string
+  description = "Azure sku"
+  default = "Premium"
 }
