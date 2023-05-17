@@ -8,4 +8,5 @@ resource "azurerm_container_registry" "this" {
   resource_group_name = var.custom_resource_group_name
   location            = var.location
   sku                 = var.sku_tier
+  tags                = var.tags
 }
