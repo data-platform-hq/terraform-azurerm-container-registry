@@ -28,7 +28,7 @@ variable "suffix" {
 variable "sku_tier" {
   type        = string
   description = "Azure sku"
-  default = "Premium"
+  default     = "Premium"
 }
 
 variable "tags" {
