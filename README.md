@@ -29,15 +29,15 @@ No modules.
 
 ## Inputs
 
-| Name                                                                                                                   | Description                           | Type           | Default       | Required |
-|------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|---------------|:--------:|
-| <a name="input_custom_resource_group_name"></a> [custom\_resource\_group\_name](#input\_custom\_resource\_group\_name) | Custom name for Resource Group        | `string`       | `null`        |    no    |
-| <a name="input_env"></a> [env](#input\_env)                                                                            | Environment name                      | `string`       | n/a           |   yes    |
-| <a name="input_location"></a> [location](#input\_location)                                                             | Azure location                        | `string`       | n/a           |   yes    |
-| <a name="input_project"></a> [project](#input\_project)                                                                | Project name                          | `string`       | n/a           |   yes    |
-| <a name="input_sku_tier"></a> [sku\_tier](#input\_sku\_tier)                                                           | Azure sku                             | `string`       | `"Premium"`   |    no    |
-| <a name="input_suffix"></a> [suffix](#input\_suffix)                                                                   | Optional suffix for resource group    | `string`       | `""`          |    no    |
-| <a name="input_tags"></a> [suffix](#input\_suffix)                                                                     | A map of tags to add to all resources | `map(string)`  | `{}`          |    no    |
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_custom_resource_group_name"></a> [custom\_resource\_group\_name](#input\_custom\_resource\_group\_name) | Custom name for Resource Group | `string` | `null` | no |
+| <a name="input_env"></a> [env](#input\_env) | Environment name | `string` | n/a | yes |
+| <a name="input_location"></a> [location](#input\_location) | Azure location | `string` | n/a | yes |
+| <a name="input_project"></a> [project](#input\_project) | Project name | `string` | n/a | yes |
+| <a name="input_sku_tier"></a> [sku\_tier](#input\_sku\_tier) | Azure sku | `string` | `"Premium"` | no |
+| <a name="input_suffix"></a> [suffix](#input\_suffix) | Optional suffix for resource group | `string` | `""` | no |
+| <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to add to all resources | `map(string)` | `{}` | no |
 
 ## Outputs
 
@@ -50,4 +50,4 @@ No modules.
 
 ## License
 
-Apache 2 Licensed. For more information please see [LICENSE](https://github.com/data-platform-hq/terraform-azurerm-resource-group/tree/main/LICENSE)
+Apache 2 Licensed. For more information please see [LICENSE](https://github.com/data-platform-hq/terraform-azurerm-container-registry/blob/main/LICENSE)
